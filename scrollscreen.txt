@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    #content {
+      width: 100%;
+      height: 100vh; /* Viewport height */
+      overflow-y: scroll;
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+    #content::-webkit-scrollbar {
+      display: none;  /* Chrome, Safari, Opera */
+    }
+  </style>
+</head>
+<body>
+  <div id="content">
+    <!-- Aquí va tu contenido desplazable -->
+    <p>Este es un ejemplo de contenido desplazable.</p>
+    <p>Agrega más contenido aquí...</p>
+    <p>Más contenido...</p>
+    <p>Y más contenido...</p>
+    <p>Sigue agregando contenido...</p>
+    <p>Finalmente, el contenido que necesitas.</p>
+    <p>Más contenido para asegurarnos de que se puede desplazar...</p>
+  </div>
+</body>
+</html>
